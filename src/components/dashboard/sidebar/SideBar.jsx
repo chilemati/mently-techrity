@@ -3,7 +3,8 @@ import React, { useEffect, useRef, useState } from 'react'
 import { sidebarData } from './sidebarData'
 import Link from 'next/link';
 import Image from 'next/image';
-import {sidebar} from '@/data/dashboard.json'
+import dashboardData from "@/data/dashboard.json";
+const sidebar = dashboardData.sidebar;
 import Grid4Icon from '@/components/dynamicSvgs/Grid4Icon';
 import UserTagIcon from '@/components/dynamicSvgs/UserTagIcon';
 import MySwitch from '@/components/mui/Switch'

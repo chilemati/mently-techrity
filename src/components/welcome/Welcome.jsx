@@ -1,5 +1,6 @@
 import React from 'react'
-import {welcome} from "@/data/dashboard.json"
+import dashboardData from "@/data/dashboard.json";
+const welcome = dashboardData.welcome;
 
 const Welcome = () => {
   return (

@@ -4,7 +4,8 @@ import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import MyCheckBox from "./MyCheckBox";
-import { widget } from "@/data/dashboard.json";
+import dashboardData from "@/data/dashboard.json";
+const widget = dashboardData.widget;
 
 const ManageWidget = ({}) => {
   const [close, setClose] = useState(false);

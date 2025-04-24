@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
-import {widget} from '@/data/dashboard.json'
+import dashboardData from "@/data/dashboard.json";
+const widget = dashboardData.widget;
 
 const initialState = {
   isWidgetVisible: false,

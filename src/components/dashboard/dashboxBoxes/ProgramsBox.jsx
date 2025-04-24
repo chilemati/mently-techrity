@@ -1,9 +1,10 @@
 import React from 'react'
-import {boxes} from '@/data/dashboard.json'
 import Image from 'next/image'
 import SettingsIcon from '@/components/dynamicSvgs/SettingsIcon'
 import DotIon from '@/components/dynamicSvgs/DotIon'
 import MentorsIcons from './MentorsIcons'
+import dashboardData from "@/data/dashboard.json";
+const boxes = dashboardData.boxes;
 
 const ProgramsBox = () => {
   return (

@@ -2,7 +2,8 @@
 import React, { useState } from 'react'
 import ViewMirrow from '../dynamicSvgs/ViewMirrow'
 import ViewThumb from '../dynamicSvgs/ViewThumb'
-import { widget } from "@/data/dashboard.json";
+import dashboardData from "@/data/dashboard.json";
+const widget = dashboardData.widget;
 import { useSelector, useDispatch } from 'react-redux';
 import { toggleWidget } from '@/redux/widgetSlice';
 

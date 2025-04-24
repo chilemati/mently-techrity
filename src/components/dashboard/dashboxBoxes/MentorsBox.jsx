@@ -1,6 +1,7 @@
 import React from "react";
-import { boxes } from "@/data/dashboard.json";
 import Image from "next/image";
+import dashboardData from "@/data/dashboard.json";
+const boxes = dashboardData.boxes;
 
 const MentorsBox = () => {
   return (

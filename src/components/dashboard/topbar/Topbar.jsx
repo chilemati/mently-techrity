@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from "react";
-import { topbar } from "@/data/dashboard.json";
+import dashboardData from "@/data/dashboard.json";
+const topbar = dashboardData.topbar;
 import Image from "next/image";
 import { useDispatch } from "react-redux";
 import { toggleSidebar } from "@/redux/sidebarSlice";

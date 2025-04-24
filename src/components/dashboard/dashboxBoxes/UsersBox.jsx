@@ -1,7 +1,8 @@
 "use client";
 import * as React from "react";
 import { PieChart } from "@mui/x-charts/PieChart";
-import {boxes} from "@/data/dashboard.json"
+import dashboardData from "@/data/dashboard.json";
+const boxes = dashboardData.boxes;
 
 const data = [
     { "id": 0, "value": 200,"color": "#62B2FD", "label": "Students" },
