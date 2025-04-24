@@ -44,7 +44,7 @@ const ApplicationBox = () => {
           {boxes.applications.mentors.h5}{" "}
         </h5>
         {/* show mentors */}
-        <div className="w-full h-[102px] mx-auto grid grid-cols-[14px_1fr] gap-4  border-b-[1px] border-b-[#DBDBDB] pb-[22.15px] ">
+        <div className="w-full min-h-[102px] mx-auto grid grid-cols-[14px_1fr] gap-4  border-b-[1px] border-b-[#DBDBDB] pb-[22.15px] ">
           <input type="checkbox" name="check" id="check" className="w-[14px] h-[13px] mt-[11.5px] " />
           <div className="flexColStart">
             {boxes.applications.mentors.data.map((each, i) => (
