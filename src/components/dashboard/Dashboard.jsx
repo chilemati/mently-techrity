@@ -21,9 +21,9 @@ const Dashboard = () => {
         <div className=" bg-white rounded-[12px] py-2 px-4 min-h-[320px]   "> <GroupCallsBox /> </div>
         <div className=" grid grid-cols-1 xl:grid-cols-[415px_320px] gap-[10px]">
         {/* box Applications */}
-          <div className=" bg-white rounded-[12px] py-2 px-4 h-[605px]"> <ApplicationBox /> </div>
+          <div className=" bg-white rounded-[12px] py-2 px-4 min-h-[605px]"> <ApplicationBox /> </div>
           {/* box Mentors */}
-          <div className=" bg-white rounded-[12px] py-2 px-4 h-[605px]"> <MentorsBox /> </div>
+          <div className=" bg-white rounded-[12px] py-2 px-4 min-h-[605px]"> <MentorsBox /> </div>
         </div>
       </div>
     </div>

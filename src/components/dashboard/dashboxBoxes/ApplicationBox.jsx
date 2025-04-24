@@ -8,7 +8,7 @@ const ApplicationBox = () => {
     <div>
       {/* top */}
       <div className="flexBetween ">
-        <div className="flexBetween gap-4 ">
+        <div className="flexBetween  gap-4 ">
           <Image
             className="cursor-pointer"
             src={boxes.applications.top.outline}
@@ -64,7 +64,7 @@ const ApplicationBox = () => {
                         <span className="font-Chivo font-[400] text-[10px] text-gray-904 "> {each.email} </span>
                     </div>
                   </div>
-                  <div className="flexBetween gap-[6.11px]  ">
+                  <div className="flexBetween flex-col lg:flex-row gap-[6.11px]  ">
                     <button className={`w-[78.83px] h-[31.53px] rounded-[6.11px] flexCenter ${each.btns.accept.bg} ${each.btns.accept.text} `}>
                         {each.btns.accept.text1}
                     </button>
@@ -73,7 +73,7 @@ const ApplicationBox = () => {
                     </button>
                   </div>
                 </div>
-                <div className="flexBetween gap-[6.11px] mt-[10.5px] ">
+                <div className="flexBetween flex-wrap lg:flex-nowrap gap-[6.11px] mt-[10.5px] ">
                     <button className={`flexCenter font-Chivo font-[500] text-[8.65px] text-nowrap h-[19.3px] px-[10.23px] rounded-[5.1px] border-[0.86px] border-[#DDCEEE] ${each.profession.bg} ${each.profession.text}`}> {each.profession.text1} </button>
 
                     <button className={`flexCenter font-Chivo font-[500] text-[8.65px] text-nowrap h-[19.3px] px-[10.23px] rounded-[5.1px] border-[0.86px] border-[#DDCEEE] ${each.experience.bg} ${each.experience.text}`}> {each.experience.text1} </button>
@@ -123,7 +123,7 @@ const ApplicationBox = () => {
                         <span className="font-Chivo font-[400] text-[10px] text-gray-904 "> {each.email} </span>
                     </div>
                   </div>
-                  <div className="flexBetween gap-[6.11px]   ">
+                  <div className="flexBetween flex-col lg:flex-row gap-[6.11px]   ">
                     <button className={`w-[78.83px] h-[31.53px] rounded-[6.11px] flexCenter ${each.btns.accept.bg} ${each.btns.accept.text} `}>
                         {each.btns.accept.text1}
                     </button>
